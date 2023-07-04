@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fab05cddf8.js" crossorigin="anonymous"></script>    <title>DC Portfolio</title>
+</head>
+<body>
+    <div id="header">
+            <div class="container">
+                <nav>
+                    <a href="#"><img src="images/logo4.jpg" alt="DC logo" class="logo"></a>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li> 
+                        <i class="fa-solid fa-xmark"onclick="closemenu()"></i>
+                    </ul>
+
+                    <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <!-- <p>Java & Web App Developer</p> -->
+                    <h1>Hi, I'm <span>Deepak</span> <br>Chouhan From Indore </h1>
+                    <span class="iii">I'm</span>
+                    <span id="element"></span>
+                </div>
+            </div>
+    </div>
+<!-- ------------------------------------About---------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user2.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About ME </h1>
+                    <p>My name is Deepak Chouhan, and I am a passionate software developer with a specialization in Java. As a fresher in the IT world, I am eagerly waiting for an entry-level opportunity to kickstart my career. I am known for my strong work ethic, intelligence, and ability to adapt quickly. Being a team player, I thrive in collaborative environments where I can contribute my skills and learn from others. With excellent communication skills, I can effectively convey complex ideas and work seamlessly with colleagues and clients. I am also proficient in utilizing AI technologies to solve problems efficiently. My dedication and problem-solving abilities make me an asset to any project.
+                    </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>Java Developer</span><br>Building Java Application
+                                </li>
+                                <li>
+                                    <span>Web Development</span><br>MERN Web App Development
+                                </li>
+                                <li>
+                                    <span>UI/UX</span><br>Designing Web/App Interfaces
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="exprience">
+                            <ul>
+                                <li>
+                                    <span>Java</span><br>Madical Store Management System
+                                </li>
+                                <li>
+                                    <span>Web Development</span><br>Web App Development
+                                </li>
+                                <li>
+                                    <span>Destop App</span><br>Building Destop Apps for clients
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>Graduation</span><br></span><a target="_blank" style="text-decoration: none; color: #c0bdbe;" href="https://sdbc.ac.in/">Sushila Devi Bansal College of Engineering</a>
+                                </li>
+                                <li>
+                                    <span>High Secondry Schooling</span><br><a target="_blank" style="text-decoration: none; color: #c0bdbe;" href="https://www.mcsindore.com/">Mount Carmel H.S. School</a>
+                                </li>
+                                <li>
+                                    <span>High Schooling</span><br><a target="_blank" style="text-decoration: none; color: #c0bdbe;" href="https://www.mcsindore.com/">Mount Carmel H.S. School</a>
+                                </li>
+                            </ul>
+                        </div>
+                   
+                </div>
+            </div>
+        </div>
+         
+    </div>
+
+    <!-- ---------------services------------------------ -->
+
+    <div id="services">
+        <div class="container">
+            <h class="sub-title">MY Service</h>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-java" style="color: rgb(225, 225, 225);"></i>
+                    <h2>Java Developer</h2>
+                    <p>As a Java developer, I specialize in leveraging the power of Java to design and develop robust and scalable applications. With expertise in object-oriented programming, frameworks, and libraries, I have a deep understanding of Java's features like multithreading, exception handling, and memory management. I excel in crafting efficient and maintainable code, implementing best practices, and delivering high-quality solutions. With strong problem-solving skills and a passion for innovation, I am dedicated to creating impactful and reliable software solutions.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop" style="color: rgb(225, 225, 225);"></i>
+                    
+                    <h2>Web Design</h2>
+                    <p>As a web designer, I combine my creativity and technical skills to create visually appealing and user-friendly websites. With expertise in HTML, CSS, and JavaScript, I specialize in crafting responsive designs that work seamlessly across different devices. I have a keen eye for aesthetics, attention to detail, and a deep understanding of user experience principles. From wireframing and prototyping to implementing interactive elements, I strive to deliver engaging and intuitive web designs that leave a lasting impression.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-crop" style="color: #e1004f;"></i> -->
+                    <!-- <i class="fa-solid fa-palette" style="color: #e1004f;"></i> -->
+                    <i class="fa-solid fa-wand-magic-sparkles" style="color: rgb(225, 225, 225);"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>As a UX/UI designer, my goal is to create exceptional user experiences by seamlessly blending user-centered design principles with visually stunning interfaces. With expertise in user research, information architecture, wireframing, and prototyping, I specialize in crafting intuitive and visually appealing designs that meet user needs and business goals. I have a deep understanding of user psychology, usability best practices, and current design trends. Through collaboration, iteration, and attention to detail, I aim to create digital products that engage and delight users.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- -------------------------------Portfolio---------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MY Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-11.png" alt="work">
+                    <div class="layer">
+                        <h3>Medical Store Menagement System</h3>
+                        <p>The medical store management desktop application, developed using Java, Swing, and MySQL database, provides an efficient solution for managing inventory, sales, and purchases in a medical store. It offers a user-friendly interface, seamless database integration, and essential functionalities to streamline operations and enhance productivity.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #e1e1e1;"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-22.png" alt="work">
+                    <div class="layer">
+                        <h3>Reception Management System</h3>
+                        <p>The Reception Management application, built with Java Swing and the Input/Output API, simplifies the process of managing and organizing appointments and visitor information. It offers a user-friendly interface, efficient input/output functionalities, and essential features for effective reception management.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #e1e1e1;"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-33.png" alt="work">
+                    <div class="layer">
+                        <h3>Portfolio Web Site</h3>
+                        <p>The portfolio website, developed using HTML, CSS, and JavaScript, showcases my work and skills. It includes a contact form that securely collects information from visitors and stores it in a Google Sheet for easy access and management.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #e1e1e1;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    
+
+<!-- -------------------------Contact-------------------------------------------- -->   
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                    <div class="contact-left">
+                        <h1  class="sub-title">Contact Me</h1>
+                        <p><i id="mail" class="fa-solid fa-envelope" style="color: #e1004f;"></i>deepakchouhandc0702@gmail.com</p>
+                        <p><i id="phone" class="fa-solid fa-phone" style="color: #e1004f;"></i>91+9302604626</p>
+                        <div class="social-icons">
+                            <a id="linkedIn" href="https://www.linkedin.com/in/deepak-chouhan-5b828b227/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a id="git" href="https://github.com/deepakchouhandc"><i class="fa-brands fa-github"></i></a>
+                            <a id="twitter" href="https://twitter.com/Deepak07dc"><i class="fa-brands fa-twitter"></i></a>
+                            <a id="facebook" href="https://www.facebook.com/deepk.chouhan.52/"><i class="fa-brands fa-facebook"></i></a>
+                            <a id="instagram" href="https://www.instagram.com/deepak.chouhan_.07/"><i class="fa-brands fa-instagram"></i></a>
+                            <a id="leetcode" href="https://leetcode.com/deepakchouhandc/"><i class="fa-solid fa-laptop-code"></i></a>
+                            
+                        </div>
+                        <a href="images/DEEPAK CHOUHAN RESUME.pdf" download="btn btn2" class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+
+
+                        </form>
+                        <span id="msg"></span>
+
+                    </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © <a href="#" style="text-decoration: none; color: white;">DC</a>. Made with <i class="fa-solid fa-heart" style="color: #e1004f;"></i>  DC</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+
+    <script>
+        
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwCeti31U7q05qXWLOJuP8_Kv1UPf0hzf499LTMqtMjn8yalPQ0Cjrx_1cNjK9FqhOFAQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            } )
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Java Developer', 'Web App Developer','Software Developer'],
+          typeSpeed: 50,
+          
+        });
+      </script>
+</body>
+</html>
